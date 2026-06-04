@@ -8,7 +8,7 @@ if number < 0:
     exit("Negative numbers cannot be Strong numbers ...Exited")
 print("-------------------------------------------------------------")
 # storing original number
-original_number = number
+original_number = number #for later comparison, as we will be modifying the number variable to calculate sum of factorials of digits
 # initializing sum
 sum_of_factorials = 0
 # calculating sum of factorials of digits

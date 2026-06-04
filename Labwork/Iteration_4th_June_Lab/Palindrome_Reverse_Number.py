@@ -17,7 +17,7 @@ if number < 0:
     exit("Negative numbers cannot be considered for palindromes ...Exited")
 print("-------------------------------------------------------------")
 # storing original number
-original_number = number
+original_number = number #for later comparison, as we will be modifying the number variable to calculate reverse and check palindrome condition
 # initializing variable for reverse number
 reverse_number = 0
 # calculating reverse number
