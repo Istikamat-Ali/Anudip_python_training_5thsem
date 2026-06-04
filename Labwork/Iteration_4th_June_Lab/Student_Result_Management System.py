@@ -42,18 +42,18 @@ elif percentage >= 40:
     grade = "C"
 else:
     grade = "Fail"
-# counting number of subjects failed using for loop without using list comprehension
-
+# counting number of subjects failed using for loop (without using list comprehension)
 failed_subjects = 0
-subjects = [s1_marks, s2_marks, s3_marks, s4_marks, s5_marks]
-for marks in subjects:
-    if marks < 40:
-        failed_subjects += 1
+if s1_marks < 40:
+    failed_subjects += 1
+if s2_marks < 40:
+    failed_subjects += 1
 if s3_marks < 40:
     failed_subjects += 1
 if s4_marks < 40:
     failed_subjects += 1
 if s5_marks < 40:
-    failed_subjects += 1
+    failed_subjects += 1            
 # displaying the result
 print("Total Marks:", total_marks)
+print("Percentage: ",percentage)
