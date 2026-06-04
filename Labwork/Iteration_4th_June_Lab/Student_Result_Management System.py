@@ -15,21 +15,21 @@
 #program to manage student results
 print("---------------------Student Result Management System---------------------")
 # input marks for 5 subjects from user
-s1_marks = float(input("Enter marks for Subject 1: "))
-s2_marks = float(input("Enter marks for Subject 2: "))
-s3_marks = float(input("Enter marks for Subject 3: "))
-s4_marks = float(input("Enter marks for Subject 4: "))
-s5_marks = float(input("Enter marks for Subject 5: "))
+Physics_marks = float(input("Enter marks for Subject 1: "))
+Chemistry_marks = float(input("Enter marks for Subject 2: "))
+Mathematics_marks = float(input("Enter marks for Subject 3: "))
+Biology_marks = float(input("Enter marks for Subject 4: "))
+Computer_Science_marks = float(input("Enter marks for Subject 5: "))
 # validating the input
-if (s1_marks < 0 or s1_marks > 100 or
-    s2_marks < 0 or s2_marks > 100 or
-    s3_marks < 0 or s3_marks > 100 or
-    s4_marks < 0 or s4_marks > 100 or
-    s5_marks < 0 or s5_marks > 100):
+if (Physics_marks < 0 or Physics_marks > 100 or
+    Chemistry_marks < 0 or Chemistry_marks > 100 or
+    Mathematics_marks < 0 or Mathematics_marks > 100 or
+    Biology_marks < 0 or Biology_marks > 100 or
+    Computer_Science_marks < 0 or Computer_Science_marks > 100):
     exit("Marks should be between 0 and 100 ...Exited")
 print("-------------------------------------------------------------")
 # calculating total marks and percentage
-total_marks = s1_marks + s2_marks + s3_marks + s4_marks + s5_marks
+total_marks = Physics_marks + Chemistry_marks + Mathematics_marks + Biology_marks + Computer_Science_marks
 percentage = (total_marks / 500) * 100
 # determining grade based on percentage
 if percentage >= 90:
@@ -44,15 +44,15 @@ else:
     grade = "Fail"
 # counting number of subjects failed using for loop (without using list comprehension)
 failed_subjects = 0
-if s1_marks < 40:
+if Physics_marks < 40:
     failed_subjects += 1
-if s2_marks < 40:
+if Chemistry_marks < 40:
     failed_subjects += 1
-if s3_marks < 40:
+if Mathematics_marks < 40:
     failed_subjects += 1
-if s4_marks < 40:
+if Biology_marks < 40:
     failed_subjects += 1
-if s5_marks < 40:
+if Computer_Science_marks < 40:
     failed_subjects += 1            
 # displaying the result
 print("Total Marks:", total_marks)
