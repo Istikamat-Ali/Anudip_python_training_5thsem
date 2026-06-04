@@ -57,3 +57,5 @@ if s5_marks < 40:
 # displaying the result
 print("Total Marks:", total_marks)
 print("Percentage: ",percentage)
+print("Grade:", grade)
+print("Number of Subjects Failed:", failed_subjects)    

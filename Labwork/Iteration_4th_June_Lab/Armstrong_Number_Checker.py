@@ -1,4 +1,5 @@
 #program to check if a number is an Armstrong number
+# An Armstrong number is a number that is equal to the sum of its own digits raised to the power of the number of digits.
 print("---------------------Armstrong Number Checker---------------------")
 #input a number from user
 number = int(input("Enter a number: "))
@@ -9,7 +10,7 @@ print("-------------------------------------------------------------")
 # storing original number
 original_number = number
 # counting digits
-num_digits = len(str(number))
+num_digits = len(str(number)) # converting number to string to count digits
 
 # initializing sum
 sum_of_powers = 0
