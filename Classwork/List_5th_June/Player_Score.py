@@ -6,57 +6,57 @@ print("--------------------- Player Score Management System --------------------
 
 # Input scores for all 11 players
 
-p1 = float(input("Enter score for Player 1: "))
+p1 = int(input("Enter score for Player 1: "))
 # validate input
 if p1 < 0:
     exit("Score cannot be negative ... Exited")
 
-p2 = float(input("Enter score for Player 2: "))
+p2 =int(input("Enter score for Player 2: "))
 # validate input
 if p2 < 0:
     exit("Score cannot be negative ... Exited")
 
-p3 = float(input("Enter score for Player 3: "))
+p3 = int(input("Enter score for Player 3: "))
 # validate input
 if p3 < 0:
     exit("Score cannot be negative ... Exited")
 
-p4 = float(input("Enter score for Player 4: "))
+p4 = int(input("Enter score for Player 4: "))
 # validate input
 if p4 < 0:
     exit("Score cannot be negative ... Exited")
 
-p5 = float(input("Enter score for Player 5: "))
+p5 = int(input("Enter score for Player 5: "))
 # validate input
 if p5 < 0:
     exit("Score cannot be negative ... Exited")
 
-p6 = float(input("Enter score for Player 6: "))
+p6 = int(input("Enter score for Player 6: "))
 # validate input
 if p6 < 0:
     exit("Score cannot be negative ... Exited")
 
-p7 = float(input("Enter score for Player 7: "))
+p7 = int(input("Enter score for Player 7: "))
 # validate input
 if p7 < 0:
     exit("Score cannot be negative ... Exited")
 
-p8 = float(input("Enter score for Player 8: "))
+p8 = int(input("Enter score for Player 8: "))
 # validate input
 if p8 < 0:
     exit("Score cannot be negative ... Exited")
 
-p9 = float(input("Enter score for Player 9: "))
+p9 = int(input("Enter score for Player 9: "))
 # validate input
 if p9 < 0:
     exit("Score cannot be negative ... Exited")
 
-p10 = float(input("Enter score for Player 10: "))
+p10 = int(input("Enter score for Player 10: "))
 # validate input
 if p10 < 0:
     exit("Score cannot be negative ... Exited")
 
-p11 = float(input("Enter score for Player 11: "))
+p11 = int(input("Enter score for Player 11: "))
 # validate input
 if p11 < 0:
     exit("Score cannot be negative ... Exited")
