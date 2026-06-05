@@ -5,8 +5,8 @@ water_amount=0
 time=0
 #loop until water amount reaches 100 liters
 while(water_amount<=100):
-    print("Water amount in the tank  at time ", time,"minute(s)" ": ", water_amount, "liters")
-    water_amount+=10
-    time+=1
+    print("Water amount in the tank  at time ", time,"minute(s)" ": ", water_amount, "liters")#display water amount in the tank at each minute
+    water_amount+=10 #increase water amount by 10 liters per minute
+    time+=1 #increase time by 1 minute
 #--------------------------------------------------------------
 print("Tank is full ...")
