@@ -28,12 +28,8 @@ if((side1+side2>side3) and (side2+side3>side1) and (side3+side1>side2)):
        print("The three sides form an equilateral triangle")
    elif (side1==side2) or (side2==side3) or (side3==side1):
        print("The three sides form an isosceles triangle")
-   else:
+   else:    
        print("The three sides form a scalene triangle")
-<<<<<<< HEAD
 else: 
     #triangle is not formed
-=======
-else:    
->>>>>>> af1960a662b4a86f8b3b1e9ea5cd37ddee7e79e7
     print("The three sides do not form a triangle")
