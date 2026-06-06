@@ -88,12 +88,24 @@ print("---------------------------------")
 #-----------------------------------------
 #Task 5: Determine which destination has the highest number of bookings
 #initializing highest count variable to 0 for finding highest count
-highest_count = 0
+#initializing count variable to 0 for counting passengers travelling to Delhi, Mumbai and Chennai
+delhi = 0
+mumbai = 0
+chennai = 0
+#finding count for all destinations
 for record in bookings:
-  if(record[1] == "Delhi"):
-    highest_count+=1
-  elif(record[1] == "Mumbai"):
-    highest_count+=1
-  elif(record[1] == "Chennai"):
-    highest_count+=1
-print("Most Booked Destination : ",record[1])
+    if record[1] == "Delhi":
+        delhi += 1
+    elif record[1] == "Mumbai":
+        mumbai += 1
+    elif record[1] == "Chennai":
+        chennai += 1
+#checking which destination has the highest count
+if delhi >= mumbai and delhi >= chennai:
+    print("Most Booked Destination : Delhi")
+
+elif mumbai >= delhi and mumbai >= chennai:
+    print("Most Booked Destination : Mumbai")
+
+else:
+    print("Most Booked Destination : Chennai")
