@@ -5,7 +5,7 @@ absent = 0
 student = 1
 #loop to record attendance for 30 students
 while student <= 30:
-    print("\nStudent", student
+    print("\nStudent", student)
     attendance = input("Attendance (Present/Absent): ").lower()
 
     if attendance == "present":
