@@ -8,10 +8,15 @@ print("-------------------------------------------------------------------------
 
 # Count uppercase letters
 uppercase_letters = sum(1 for char in employee_id if char.isupper())
+#instead we can use 
+''' uppercase_letters=0
+    for char in employee_id:
+        if char.isupper():
+            uppercase_letters+=1
+    print("Uppercase Letters:", uppercase_letters)'''
 print("Uppercase Letters:", uppercase_letters)
 
 print("---------------------------------------------------------------------------------")
-
 # Count digits
 digit_count = sum(1 for char in employee_id if char.isdigit())
 print("Digits:", digit_count)
