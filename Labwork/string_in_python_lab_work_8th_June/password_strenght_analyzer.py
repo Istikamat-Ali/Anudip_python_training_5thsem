@@ -76,6 +76,8 @@ print("-------------------------------------------------------------------------
 # determining the strength of the password
 if uppercase_letters >= 1 and lowercase_letters >= 1 and digits >= 1 and special_characters >= 1:
     password_strength = "Strong"
+elif uppercase_letters >= 1 and lowercase_letters >= 1 and digits >= 1:
+    password_strength = "Medium"
 else:
     password_strength = "Weak"
 print("Password Strength:", password_strength)

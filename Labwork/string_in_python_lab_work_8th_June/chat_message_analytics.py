@@ -50,7 +50,7 @@ python_count = message.count("Python")
 print("Occurrences of Python:", python_count)
 print("---------------------------------------------------------------------------------")
 # creating a list of words having more than 4 characters
-four_char_words = [word for word in message.split() if len(word) > 4]
+four_char_words = [word for word in message.split() if len(word) > 4]#list comprehension for finding words having more than 4 characters
 print("Words Longer Than 4 Characters:")
 print(four_char_words)
 print("---------------------------------------------------------------------------------")
