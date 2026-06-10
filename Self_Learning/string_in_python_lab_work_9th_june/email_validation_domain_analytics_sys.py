@@ -86,4 +86,8 @@ for i in email:
 for i in domain_count:
     print(i,"->",domain_count[i])
 print("---------------------------------------------------------------------------------")
-
+print("Challenge")
+#generating domain report
+for i in domain_count:
+    print(i,"->",domain_count[i])
+print("---------------------------------------------------------------------------------")

@@ -83,6 +83,10 @@ for i in password:
         print(i,"has no spaces")
 print("---------------------------------------------------------------------------------")
 #determine password strength
+strong_passwords=0
+medium_passwords=0
+weak_passwords=0
+print("Determine password strength:")
 for i in password:
     uppercase_letters=0
     lowercase_letters=0
@@ -99,10 +103,13 @@ for i in password:
             special_characters+=1
     if uppercase_letters>=1 and lowercase_letters>=1 and digits>=1 and special_characters>=1:
         print(i,"is a strong password")
+        strong_passwords+=1
     elif uppercase_letters>=1 and lowercase_letters>=1 and digits>=1:
         print(i,"is a medium password")
+        medium_passwords+=1
     else:
         print(i,"is a weak password")
+        weak_passwords+=1
 print("---------------------------------------------------------------------------------")
 #displaying repeated characters
 print("Displaying repeated characters:")
@@ -153,7 +160,13 @@ for i in password:
                 if freq[key]==val:
                     print("The most frequently occurring character in",i,"is",key,val)
             break
-    
+print("---------------------------------------------------------------------------------")
+print("Challenge: Generate a report showing:")
+print("Total Passwords Analyzed:",len(password))
+print("Strong Passwords:",strong_passwords)
+print("Medium Passwords:",medium_passwords)
+print("Weak Passwords:",weak_passwords)
+
 
 
 
