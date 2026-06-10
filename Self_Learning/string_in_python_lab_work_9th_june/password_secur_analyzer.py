@@ -27,7 +27,7 @@ print("--------------------------Password Security Analyzer---------------------
 #creating empty list  to store password entered by user
 password=[]
 #taking input for passwords
-while len(password)<3:
+while len(password)<15:
     password.append(input("Enter the password : "))
 #counting uppercase letters
 print("---------------------------------------------------------------------------------")
