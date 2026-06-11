@@ -8,3 +8,13 @@ Student ID: S107, Marks: 91, Grade: A
 Student ID: S108, Marks: 78, Grade: B
 Student ID: S109, Marks: 47, Grade: C
 Student ID: S110, Marks: 88, Grade: B
+Student ID: S101, Marks: 85, Grade: B
+Student ID: S102, Marks: 72, Grade: C
+Student ID: S103, Marks: 96, Grade: A
+Student ID: S104, Marks: 68, Grade: C
+Student ID: S105, Marks: 39, Grade: F
+Student ID: S106, Marks: 54, Grade: C
+Student ID: S107, Marks: 91, Grade: A
+Student ID: S108, Marks: 78, Grade: B
+Student ID: S109, Marks: 47, Grade: C
+Student ID: S110, Marks: 88, Grade: B

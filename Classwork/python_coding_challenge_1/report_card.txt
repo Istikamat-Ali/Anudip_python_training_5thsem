@@ -1,0 +1,10 @@
+Name: Anuj, Marks: 92, Grade: A
+Name: Rahul, Marks: 76, Grade: B
+Name: Priya, Marks: 88, Grade: B
+Name: Neha, Marks: 45, Grade: C
+Name: Amit, Marks: 58, Grade: C
+Name: Sneha, Marks: 95, Grade: A
+Name: Karan, Marks: 81, Grade: B
+Name: Pooja, Marks: 73, Grade: C
+Name: Rohit, Marks: 39, Grade: F
+Name: Anjali, Marks: 90, Grade: A
