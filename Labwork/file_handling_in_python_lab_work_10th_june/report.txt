@@ -1,0 +1,11 @@
+---------- Expense Summary Report ----------
+
+Total Expenses: Rs.7620
+Highest Expense Category: Education - Rs.1500
+Lowest Expense Category: Gym - Rs.100
+
+Categories Spending More Than Rs.800:
+Shopping: Rs.1200
+Electricity: Rs.850
+Education: Rs.1500
+Fuel: Rs.900
